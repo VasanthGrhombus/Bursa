@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WEB_APP" verbose="2">
+  <test name="Command line test 2510e1fe-5467-48ae-808b-2e29da62f64e">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC001"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="equityPriceSorting"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 2510e1fe-5467-48ae-808b-2e29da62f64e -->
+</suite> <!-- WEB_APP -->
