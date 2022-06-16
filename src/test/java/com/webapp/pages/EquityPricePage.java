@@ -2,6 +2,8 @@ package com.webapp.pages;
 
 import com.webapp.commonDef.CommonDef;
 import org.openqa.selenium.By;
+import org.testng.annotations.Test;
+
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -67,6 +69,7 @@ public class EquityPricePage {
 		}
 		
 	}
+	
 	
 
 

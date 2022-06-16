@@ -52,7 +52,6 @@ public class BaseTest {
 	@Parameters({ "testCaseID", "dataSheet" })
 	public void launchBrowser(String testCaseID, String dataSheet) throws Exception {
 		driverManager();
-		driver.navigate().to(ProjectConfig.getPropertyValue("Bursa_Marketplace_URL"));		
 		testID=testCaseID;
 		sheetName=dataSheet;
 		Report.log("~~~~~~~ Execution Started ~~~~~~~");
