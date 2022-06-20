@@ -33,5 +33,12 @@ public class TestCaseClass {
 		}
 
 	}
+	public static void registrationValidation( WebDriver driver,String Name, String email,String pass) {
+		// TODO Auto-generated method stub
+		driver.navigate().to(ProjectConfig.getPropertyValue("BursaMarketURL"));
+		
+		Assert.assertTrue(RegistrationPage.loginValidation(Name,email,pass));
+	
+	}
 
 }

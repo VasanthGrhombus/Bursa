@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="WEB_APP" verbose="2">
-  <test name="Command line test 612011d3-faa5-4f99-bae3-5f7293257ecb">
+  <test name="Command line test 47040525-b45a-4026-8ccc-cb3d48eb1c50">
     <parameter name="dataSheet" value="WEB_APP_TD"/>
     <parameter name="testCaseID" value="TC001"/>
     <classes>
@@ -11,8 +11,8 @@
         </methods>
       </class> <!-- com.webapp.tests.AllTests -->
     </classes>
-  </test> <!-- Command line test 612011d3-faa5-4f99-bae3-5f7293257ecb -->
-  <test name="Command line test 1ec1dc95-6c08-4868-b1e4-be799a60dbdf">
+  </test> <!-- Command line test 47040525-b45a-4026-8ccc-cb3d48eb1c50 -->
+  <test name="Command line test c1b35da3-abe3-464b-8361-5777b6b7821e">
     <parameter name="dataSheet" value="WEB_APP_TD"/>
     <parameter name="testCaseID" value="TC002"/>
     <classes>
@@ -22,8 +22,8 @@
         </methods>
       </class> <!-- com.webapp.tests.AllTests -->
     </classes>
-  </test> <!-- Command line test 1ec1dc95-6c08-4868-b1e4-be799a60dbdf -->
-  <test name="Command line test 3493f5c5-fac0-498d-a6a9-c0624a3f0681">
+  </test> <!-- Command line test c1b35da3-abe3-464b-8361-5777b6b7821e -->
+  <test name="Command line test 134c05f0-929a-4a1b-9e68-9105ef4b5a34">
     <parameter name="dataSheet" value="WEB_APP_TD"/>
     <parameter name="testCaseID" value="TC003"/>
     <classes>
@@ -33,5 +33,16 @@
         </methods>
       </class> <!-- com.webapp.tests.AllTests -->
     </classes>
-  </test> <!-- Command line test 3493f5c5-fac0-498d-a6a9-c0624a3f0681 -->
+  </test> <!-- Command line test 134c05f0-929a-4a1b-9e68-9105ef4b5a34 -->
+  <test name="Command line test 045f1fc2-01b0-4839-b846-478e01dc581b">
+    <parameter name="dataSheet" value="WEB_APP_TD"/>
+    <parameter name="testCaseID" value="TC005"/>
+    <classes>
+      <class name="com.webapp.tests.AllTests">
+        <methods>
+          <include name="RegistrationModule_Inject_UserObject"/>
+        </methods>
+      </class> <!-- com.webapp.tests.AllTests -->
+    </classes>
+  </test> <!-- Command line test 045f1fc2-01b0-4839-b846-478e01dc581b -->
 </suite> <!-- WEB_APP -->
